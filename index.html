@@ -1,137 +1,335 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Política de Privacidad — Arte y Fe</title>
-<style>
-  :root { color-scheme: light dark; }
-  body {
-    max-width: 760px; margin: 0 auto; padding: 24px 20px 60px;
-    font-family: Georgia, 'Times New Roman', serif; line-height: 1.65;
-    color: #2b1a0e; background: #fdf6e3;
-  }
-  @media (prefers-color-scheme: dark) {
-    body { color: #efe6d5; background: #1c140d; }
-    a { color: #e0a94f; }
-    .lang a { color: #e0a94f; }
-  }
-  h1 { font-size: 1.7em; border-bottom: 2px solid #c9821a; padding-bottom: 8px; }
-  h2 { font-size: 1.25em; margin-top: 1.8em; color: inherit; }
-  a { color: #a86612; }
-  .meta { font-size: 0.95em; opacity: 0.85; }
-  .lang { text-align: right; font-size: 0.9em; }
-  hr.sep { margin: 56px 0; border: none; border-top: 2px solid #c9821a; }
-  ul { padding-left: 1.3em; }
-</style>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Privacy Policy — Arte y Fe / Art &amp; Faith</title>
+  <meta name="description" content="Privacy Policy for Arte y Fe (Art &amp; Faith), a Bible jigsaw puzzle app." />
+  <style>
+    :root {
+      --bg: #fdf6e3;
+      --ink: #2c2416;
+      --muted: #5c5346;
+      --oak: #8b6914;
+      --card: #fffdf6;
+      --line: #e8dcc4;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "Segoe UI", system-ui, -apple-system, sans-serif;
+      background: var(--bg);
+      color: var(--ink);
+      line-height: 1.65;
+    }
+    header {
+      background: linear-gradient(160deg, #2c2416 0%, #4a3a22 100%);
+      color: #fdf6e3;
+      padding: 2.25rem 1.25rem 1.75rem;
+    }
+    header .wrap, main, footer .wrap { max-width: 42rem; margin: 0 auto; }
+    h1 { margin: 0 0 0.35rem; font-size: 1.65rem; font-weight: 650; letter-spacing: 0.01em; }
+    .sub { opacity: 0.85; font-size: 0.95rem; }
+    .lang {
+      display: flex;
+      gap: 0.5rem;
+      margin-top: 1rem;
+    }
+    .lang button {
+      border: 1px solid rgba(253, 246, 227, 0.35);
+      background: transparent;
+      color: #fdf6e3;
+      border-radius: 999px;
+      padding: 0.35rem 0.85rem;
+      cursor: pointer;
+      font-size: 0.85rem;
+    }
+    .lang button[aria-pressed="true"] {
+      background: #fdf6e3;
+      color: #2c2416;
+      border-color: #fdf6e3;
+    }
+    main { padding: 1.5rem 1.25rem 3rem; }
+    section {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      padding: 1.15rem 1.2rem;
+      margin-bottom: 1rem;
+    }
+    h2 {
+      margin: 0 0 0.6rem;
+      font-size: 1.1rem;
+      color: var(--oak);
+    }
+    p, li { color: var(--ink); }
+    ul { padding-left: 1.2rem; margin: 0.4rem 0; }
+    a { color: #6b4f12; }
+    .meta { color: var(--muted); font-size: 0.9rem; margin-bottom: 1rem; }
+    .hidden { display: none; }
+    footer {
+      border-top: 1px solid var(--line);
+      padding: 1.25rem;
+      color: var(--muted);
+      font-size: 0.85rem;
+    }
+  </style>
 </head>
 <body>
+  <header>
+    <div class="wrap">
+      <h1>Arte y Fe · Art &amp; Faith</h1>
+      <p class="sub">Privacy Policy / Política de privacidad</p>
+      <div class="lang" role="group" aria-label="Language">
+        <button type="button" id="btn-en" aria-pressed="true">English</button>
+        <button type="button" id="btn-es" aria-pressed="false">Español</button>
+      </div>
+    </div>
+  </header>
 
-<p class="lang"><a href="#english">English version below ↓</a></p>
+  <main>
+    <!-- ENGLISH -->
+    <div id="lang-en">
+      <p class="meta">
+        <strong>App:</strong> Arte y Fe (Art &amp; Faith)<br />
+        <strong>Package:</strong> com.cennarius.bibliapuzzle<br />
+        <strong>Developer:</strong> Cennarius<br />
+        <strong>Contact:</strong> <a href="mailto:clajorixgames@gmail.com">clajorixgames@gmail.com</a><br />
+        <strong>Last updated:</strong> 18 July 2026
+      </p>
 
-<h1>Política de Privacidad — Arte y Fe</h1>
-<p class="meta">
-  <strong>App:</strong> Arte y Fe (juego de puzzles bíblico)<br>
-  <strong>Desarrollador:</strong> Clajorix Games<br>
-  <strong>Contacto:</strong> <a href="mailto:clajorixgames@gmail.com">clajorixgames@gmail.com</a><br>
-  <strong>Última actualización:</strong> 18 de julio de 2026
-</p>
+      <section>
+        <h2>Summary</h2>
+        <p>
+          Arte y Fe is a single-player, offline Bible jigsaw game. We do
+          <strong>not</strong> run our own servers and we do <strong>not</strong>
+          collect or store your personal data on our side. Your game progress
+          lives only on your device. The only data that may leave your device is
+          handled by <strong>Google Play</strong> (for purchases) and, if ads are
+          shown, by <strong>Google AdMob</strong> — each under Google’s own privacy terms.
+        </p>
+      </section>
 
-<h2>Resumen</h2>
-<p>Arte y Fe es un juego de puzzles bíblico para un solo jugador que funciona sin conexión. <strong>No</strong> tenemos servidores propios y <strong>no</strong> recopilamos ni almacenamos tus datos personales. Tu progreso vive únicamente en tu dispositivo. Los únicos datos que salen de tu dispositivo los gestionan <strong>Google Play</strong> (compras) y, si ves anuncios, <strong>Google AdMob</strong> — cada uno bajo las condiciones de privacidad de Google.</p>
+      <section>
+        <h2>Data stored on your device only</h2>
+        <p>
+          The app saves the following locally (device storage / AsyncStorage).
+          It is not transmitted to us and is removed when you uninstall the app
+          or erase progress in Settings:
+        </p>
+        <ul>
+          <li>Game progress: unlocked and completed levels, daily and master records</li>
+          <li>In-game coins and gallery unlocks</li>
+          <li>Purchase/entitlement flags (No Ads / Full Edition) — local only</li>
+          <li>Preferences: language, music and sound-effects settings</li>
+        </ul>
+        <p>
+          We do not collect names, emails, contacts, location, photos, or account
+          identifiers. The app has no login and no user accounts.
+        </p>
+      </section>
 
-<h2>Datos guardados solo en tu dispositivo</h2>
-<p>La app guarda localmente (almacenamiento local de Android) lo siguiente. <strong>No</strong> se nos transmite y se elimina al desinstalar la app o al usar «Borrar progreso» en Ajustes:</p>
-<ul>
-  <li>Progreso de juego: niveles desbloqueados y completados, registros del reto diario y del modo Maestro.</li>
-  <li>Monedas del juego y desbloqueos de la galería.</li>
-  <li>Compras/beneficios (Sin Anuncios / Edición Completa) — solo una marca local.</li>
-  <li>Preferencias: idioma, música y efectos de sonido.</li>
-</ul>
-<p>No recopilamos nombres, correos, contactos, ubicación, fotos ni identificadores de cuenta. La app no tiene inicio de sesión ni cuentas de usuario.</p>
+      <section>
+        <h2>Purchases</h2>
+        <p>
+          One-time purchases (No Ads, Full Edition, and the Full Edition upgrade)
+          are processed by <strong>Google Play Billing</strong>. Google handles the
+          payment; the app never sees or stores your payment-card details.
+          See Google’s Privacy Policy:
+          <a href="https://policies.google.com/privacy" rel="noopener noreferrer">policies.google.com/privacy</a>
+        </p>
+      </section>
 
-<h2>Compras y donaciones</h2>
-<p>Las compras de pago único (Sin Anuncios, Edición Completa y su mejora) y las donaciones voluntarias se procesan mediante <strong>Google Play Billing</strong>. Google gestiona el pago; la app nunca ve ni almacena los datos de tu tarjeta. Consulta la política de privacidad de Google: <a href="https://policies.google.com/privacy">policies.google.com/privacy</a></p>
-<p><strong>Reembolsos:</strong> además del proceso propio de Google Play, puedes solicitar un reembolso en un plazo máximo de 48 horas desde la compra escribiendo a <a href="mailto:clajorixgames@gmail.com">clajorixgames@gmail.com</a> con tu número de pedido y una justificación. La política completa está disponible dentro de la app (Ajustes → Privacidad y avisos legales).</p>
+      <section>
+        <h2>Advertising (Google AdMob)</h2>
+        <p>
+          The free version may show ads served by <strong>Google AdMob</strong>.
+          To serve ads, AdMob may collect and process device and usage information,
+          including an advertising identifier, IP address, and ad-interaction data,
+          in accordance with Google’s policies.
+          See
+          <a href="https://policies.google.com/technologies/partner-sites" rel="noopener noreferrer">How Google uses information from sites or apps that use our services</a>.
+        </p>
+        <ul>
+          <li><strong>Removing ads:</strong> buying No Ads or Full Edition stops interstitial ads in the app.</li>
+          <li><strong>EU/EEA &amp; UK:</strong> where required, we show Google’s consent form (UMP) before requesting ads and honor your choice.</li>
+        </ul>
+        <p>
+          If ads are not yet enabled in a given build, this section still describes
+          the intended behaviour when ads are turned on.
+        </p>
+      </section>
 
-<h2>Publicidad (Google AdMob)</h2>
-<p>La versión gratuita puede mostrar anuncios servidos por <strong>Google AdMob</strong>. Para servirlos, AdMob puede recopilar y procesar información del dispositivo y de uso, incluido un <strong>identificador de publicidad</strong>, la dirección IP y datos de interacción con los anuncios, conforme a las políticas de Google. Ver «Cómo usa Google la información de sitios o aplicaciones que utilizan sus servicios»: <a href="https://policies.google.com/technologies/partner-sites">policies.google.com/technologies/partner-sites</a></p>
-<ul>
-  <li><strong>Quitar los anuncios:</strong> comprar <strong>Sin Anuncios</strong> o la <strong>Edición Completa</strong> elimina los anuncios intersticiales de la app.</li>
-  <li><strong>Consentimiento UE/EEE y Reino Unido:</strong> donde la ley lo exige, mostramos el formulario de consentimiento de Google (UMP) antes de solicitar anuncios y respetamos tu elección. Podrás cambiarla desde las opciones de privacidad de la app cuando los anuncios estén activos.</li>
-</ul>
+      <section>
+        <h2>Analytics</h2>
+        <p>
+          The current product does not send product analytics to us (the analytics
+          layer may be a local stub). If analytics (e.g. Firebase) is enabled in a
+          future version, this policy and the Play “Data safety” form will be updated.
+        </p>
+      </section>
 
-<h2>Analítica</h2>
-<p>La versión actual <strong>no</strong> envía eventos de analítica. Si en el futuro se activa una herramienta de analítica (p. ej. Firebase Analytics), esta política y el formulario de «Seguridad de los datos» de Google Play se actualizarán para describir qué se recopila.</p>
+      <section>
+        <h2>Children</h2>
+        <p>
+          Arte y Fe is intended for a family / general audience. We do not knowingly
+          collect personal information from children. If ads are enabled, ad content
+          is configured through AdMob settings appropriate for the app’s audience.
+        </p>
+      </section>
 
-<h2>Menores</h2>
-<p>Arte y Fe es apta para un público familiar. <strong>No</strong> recopilamos conscientemente información personal de menores. Si los anuncios están activos, su contenido se restringe mediante la configuración de AdMob apropiada para la audiencia de la app.</p>
+      <section>
+        <h2>Your choices</h2>
+        <ul>
+          <li>Erase local data any time: <strong>Settings → Erase progress</strong>, or by uninstalling the app.</li>
+          <li>Manage ad consent (EU/EEA/UK) from the in-app privacy options once ads are live.</li>
+        </ul>
+      </section>
 
-<h2>Tus opciones</h2>
-<ul>
-  <li>Borra todos los datos locales en cualquier momento: <strong>Ajustes → Borrar progreso</strong>, o desinstalando la app.</li>
-  <li>Gestiona el consentimiento de anuncios (UE/EEE/Reino Unido) desde las opciones de privacidad de la app cuando los anuncios estén activos.</li>
-</ul>
+      <section>
+        <h2>Changes</h2>
+        <p>We may update this policy; the “Last updated” date reflects the latest version.</p>
+      </section>
 
-<h2>Cambios</h2>
-<p>Podemos actualizar esta política; la fecha de «Última actualización» refleja la versión vigente.</p>
+      <section>
+        <h2>Contact</h2>
+        <p>
+          Questions about this policy:
+          <a href="mailto:clajorixgames@gmail.com">clajorixgames@gmail.com</a>
+        </p>
+      </section>
+    </div>
 
-<h2>Contacto</h2>
-<p>Dudas sobre esta política: <a href="mailto:clajorixgames@gmail.com">clajorixgames@gmail.com</a></p>
+    <!-- SPANISH -->
+    <div id="lang-es" class="hidden">
+      <p class="meta">
+        <strong>App:</strong> Arte y Fe (Art &amp; Faith)<br />
+        <strong>Package:</strong> com.cennarius.bibliapuzzle<br />
+        <strong>Desarrollador:</strong> Cennarius<br />
+        <strong>Contacto:</strong> <a href="mailto:clajorixgames@gmail.com">clajorixgames@gmail.com</a><br />
+        <strong>Última actualización:</strong> 18 de julio de 2026
+      </p>
 
-<hr class="sep" id="english">
+      <section>
+        <h2>Resumen</h2>
+        <p>
+          Arte y Fe es un juego de puzzles bíblicos individual y <strong>sin conexión</strong>.
+          <strong>No</strong> operamos servidores propios y <strong>no</strong> recopilamos ni
+          almacenamos tus datos personales de nuestro lado. El progreso del juego vive solo
+          en tu dispositivo. Los únicos datos que pueden salir del dispositivo los gestionan
+          <strong>Google Play</strong> (compras) y, si hay anuncios, <strong>Google AdMob</strong>,
+          cada uno bajo sus propias políticas de privacidad.
+        </p>
+      </section>
 
-<p class="lang"><a href="#top">Versión en español arriba ↑</a></p>
+      <section>
+        <h2>Datos solo en tu dispositivo</h2>
+        <p>
+          La app guarda lo siguiente de forma local (almacenamiento del dispositivo / AsyncStorage).
+          No se nos transmite y se elimina al desinstalar la app o borrar el progreso en Ajustes:
+        </p>
+        <ul>
+          <li>Progreso: niveles desbloqueados y completados, reto diario y maestro</li>
+          <li>Monedas y desbloqueos de galería</li>
+          <li>Indicadores de compra (Sin anuncios / Edición completa) — solo locales</li>
+          <li>Preferencias: idioma, música y efectos de sonido</li>
+        </ul>
+        <p>
+          No recopilamos nombres, correos, contactos, ubicación, fotos ni identificadores
+          de cuenta. La app no tiene inicio de sesión ni cuentas de usuario.
+        </p>
+      </section>
 
-<h1>Privacy Policy — Arte y Fe</h1>
-<p class="meta">
-  <strong>App:</strong> Arte y Fe (Bible jigsaw puzzle game)<br>
-  <strong>Developer:</strong> Clajorix Games<br>
-  <strong>Contact:</strong> <a href="mailto:clajorixgames@gmail.com">clajorixgames@gmail.com</a><br>
-  <strong>Last updated:</strong> July 18, 2026
-</p>
+      <section>
+        <h2>Compras</h2>
+        <p>
+          Las compras únicas (Sin anuncios, Edición completa y la mejora a Edición completa)
+          las procesa <strong>Google Play Billing</strong>. Google gestiona el pago; la app
+          nunca ve ni almacena los datos de tu tarjeta.
+          Política de Google:
+          <a href="https://policies.google.com/privacy" rel="noopener noreferrer">policies.google.com/privacy</a>
+        </p>
+      </section>
 
-<h2>Summary</h2>
-<p>Arte y Fe is a single-player, offline Bible jigsaw game. We do <strong>not</strong> run our own servers and we do <strong>not</strong> collect or store your personal data on our side. Your game progress lives only on your device. The only data leaving your device is handled by <strong>Google Play</strong> (for purchases) and, if you see ads, by <strong>Google AdMob</strong> — each under Google's own privacy terms.</p>
+      <section>
+        <h2>Publicidad (Google AdMob)</h2>
+        <p>
+          La versión gratuita puede mostrar anuncios de <strong>Google AdMob</strong>.
+          Para servirlos, AdMob puede recopilar y tratar información del dispositivo y uso,
+          incluido un identificador publicitario, la IP e interacciones con anuncios,
+          conforme a las políticas de Google.
+          Ver
+          <a href="https://policies.google.com/technologies/partner-sites" rel="noopener noreferrer">cómo usa Google la información de sitios o apps que usan sus servicios</a>.
+        </p>
+        <ul>
+          <li><strong>Quitar anuncios:</strong> al comprar Sin anuncios o Edición completa se detienen los interstitials en la app.</li>
+          <li><strong>UE/EEE y Reino Unido:</strong> cuando proceda, mostramos el formulario de consentimiento de Google (UMP) antes de pedir anuncios y respetamos tu elección.</li>
+        </ul>
+      </section>
 
-<h2>Data stored on your device only</h2>
-<p>The app saves the following locally (Android local storage). It is <strong>not</strong> transmitted to us and is removed when you uninstall the app or erase progress in Settings:</p>
-<ul>
-  <li>Game progress: unlocked and completed levels, daily and master records.</li>
-  <li>In-game coins and gallery unlocks.</li>
-  <li>Purchases/entitlements (No Ads / Full Edition) — a local flag only.</li>
-  <li>Preferences: language, music and sound-effects settings.</li>
-</ul>
-<p>We do not collect names, emails, contacts, location, photos, or account identifiers. The app has no login and no user accounts.</p>
+      <section>
+        <h2>Analítica</h2>
+        <p>
+          El producto actual no nos envía analítica de producto. Si en el futuro se activa
+          (p. ej. Firebase), actualizaremos esta política y el formulario de seguridad de datos de Play.
+        </p>
+      </section>
 
-<h2>Purchases and donations</h2>
-<p>One-time purchases (No Ads, Full Edition and its upgrade) and voluntary donations are processed by <strong>Google Play Billing</strong>. Google handles the payment; the app never sees or stores your payment-card details. See Google's Privacy Policy: <a href="https://policies.google.com/privacy">policies.google.com/privacy</a></p>
-<p><strong>Refunds:</strong> in addition to Google Play's own process, you may request a refund within a maximum of 48 hours after purchase by writing to <a href="mailto:clajorixgames@gmail.com">clajorixgames@gmail.com</a> with your order number and a justified reason. The full policy is available inside the app (Settings → Privacy &amp; Legal).</p>
+      <section>
+        <h2>Menores</h2>
+        <p>
+          Arte y Fe está pensada para un público familiar / general. No recopilamos
+          deliberadamente información personal de menores. Si hay anuncios, el contenido
+          se configura en AdMob de forma adecuada a la audiencia de la app.
+        </p>
+      </section>
 
-<h2>Advertising (Google AdMob)</h2>
-<p>The free version may show ads served by <strong>Google AdMob</strong>. To serve ads, AdMob may collect and process device and usage information, including an <strong>advertising identifier</strong>, IP address, and ad-interaction data, in accordance with Google's policies. See "How Google uses information from sites or apps that use our services": <a href="https://policies.google.com/technologies/partner-sites">policies.google.com/technologies/partner-sites</a></p>
-<ul>
-  <li><strong>Removing ads:</strong> buying <strong>No Ads</strong> or the <strong>Full Edition</strong> stops interstitial ads within the app.</li>
-  <li><strong>EU/EEA &amp; UK consent:</strong> where required, we show Google's consent form (UMP) before requesting ads and honor your choice. You will be able to change it from the app's privacy options once ads are live.</li>
-</ul>
+      <section>
+        <h2>Tus opciones</h2>
+        <ul>
+          <li>Borrar datos locales en cualquier momento: <strong>Ajustes → Borrar progreso</strong>, o desinstalando la app.</li>
+          <li>Gestionar el consentimiento de anuncios (UE/EEE/RU) desde las opciones de privacidad de la app cuando los anuncios estén activos.</li>
+        </ul>
+      </section>
 
-<h2>Analytics</h2>
-<p>The current build does <strong>not</strong> send analytics events. If analytics (e.g. Firebase Analytics) is enabled in a future version, this policy and the Play "Data safety" form will be updated to describe what is collected.</p>
+      <section>
+        <h2>Cambios</h2>
+        <p>Podemos actualizar esta política; la fecha de “Última actualización” refleja la versión vigente.</p>
+      </section>
 
-<h2>Children</h2>
-<p>Arte y Fe is suitable for a family audience. We do <strong>not</strong> knowingly collect personal information from children. If ads are enabled, ad content is constrained through AdMob's settings appropriate for the app's audience.</p>
+      <section>
+        <h2>Contacto</h2>
+        <p>
+          Preguntas sobre esta política:
+          <a href="mailto:clajorixgames@gmail.com">clajorixgames@gmail.com</a>
+        </p>
+      </section>
+    </div>
+  </main>
 
-<h2>Your choices</h2>
-<ul>
-  <li>Erase all locally stored data any time: <strong>Settings → Erase progress</strong>, or by uninstalling the app.</li>
-  <li>Manage ad consent (EU/EEA/UK) from the in-app privacy options once ads are live.</li>
-</ul>
+  <footer>
+    <div class="wrap">
+      © Cennarius · Arte y Fe ·
+      <a href="https://artandfaith.clajorix.com/">artandfaith.clajorix.com</a>
+    </div>
+  </footer>
 
-<h2>Changes</h2>
-<p>We may update this policy; the "Last updated" date reflects the latest version.</p>
-
-<h2>Contact</h2>
-<p>Questions about this policy: <a href="mailto:clajorixgames@gmail.com">clajorixgames@gmail.com</a></p>
-
+  <script>
+    const en = document.getElementById("lang-en");
+    const es = document.getElementById("lang-es");
+    const btnEn = document.getElementById("btn-en");
+    const btnEs = document.getElementById("btn-es");
+    function setLang(lang) {
+      const isEs = lang === "es";
+      en.classList.toggle("hidden", isEs);
+      es.classList.toggle("hidden", !isEs);
+      btnEn.setAttribute("aria-pressed", String(!isEs));
+      btnEs.setAttribute("aria-pressed", String(isEs));
+      document.documentElement.lang = isEs ? "es" : "en";
+    }
+    btnEn.addEventListener("click", () => setLang("en"));
+    btnEs.addEventListener("click", () => setLang("es"));
+    if ((navigator.language || "").toLowerCase().startsWith("es")) setLang("es");
+  </script>
 </body>
 </html>
