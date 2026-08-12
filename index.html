@@ -29,7 +29,9 @@
     }
     header .wrap, main, footer .wrap { max-width: 42rem; margin: 0 auto; }
     h1 { margin: 0 0 0.35rem; font-size: 1.65rem; font-weight: 650; letter-spacing: 0.01em; }
-    .sub { opacity: 0.85; font-size: 0.95rem; }
+    /* El subtitulo vive sobre el banner oscuro: fija su color aqui para que
+       ninguna regla de elemento posterior (p, li) le gane por especificidad. */
+    .sub { color: #fdf6e3; opacity: 0.9; font-size: 0.95rem; margin: 0; }
     .lang {
       display: flex;
       gap: 0.5rem;
@@ -62,7 +64,7 @@
       font-size: 1.1rem;
       color: var(--oak);
     }
-    p, li { color: var(--ink); }
+    main p, main li { color: var(--ink); }
     ul { padding-left: 1.2rem; margin: 0.4rem 0; }
     a { color: #6b4f12; }
     .meta { color: var(--muted); font-size: 0.9rem; margin-bottom: 1rem; }
